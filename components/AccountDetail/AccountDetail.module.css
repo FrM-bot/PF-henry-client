@@ -2,6 +2,10 @@
     font-size: 40px;
 }
 
+.infoContainer {
+    display: flex;
+}
+
 .cardContainer {
     position: relative;
     width: 512px;
@@ -9,17 +13,31 @@
 
 .textContainer {
     position: absolute;
-    bottom: 30px;
+    bottom: 70px;
     left: 65px;
 }
 
 .textContainer h3 {
     position: absolute;
+    bottom: 80px;
     font-size: 20px;
     font-weight: 200;
 }
 
 .textContainer p {
     font-size: 50px;
+}
 
+.listContainer {
+    margin: 0 1rem;
+}
+
+.listContainer li {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.listContainer h4,
+.listContainer p {
+    margin: 0 1rem;
 }
