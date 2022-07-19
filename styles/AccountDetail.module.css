@@ -8,11 +8,13 @@
 
 .infoContainer {
     display: flex;
+    margin-top: 2rem;
 }
 
 .cardContainer {
     position: relative;
     width: 512px;
+    margin-right: 2rem;
 }
 
 .textContainer {
