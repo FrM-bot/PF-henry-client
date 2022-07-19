@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 
-import style from './AccountDetail.module.css'
+import style from './../styles/AccountDetail.module.css'
 
-import creditCard from '../../assets/img/creditCard.png'
-import transport from '../../assets/icons/transport.svg'
-import shopping from '../../assets/icons/shopping.svg'
-import subscriptions from '../../assets/icons/subscriptions.svg'
-import groceries from '../../assets/icons/groceries.svg'
+import creditCard from '../assets/img/creditCard.png'
+import transport from '../assets/icons/transport.svg'
+import shopping from '../assets/icons/shopping.svg'
+import subscriptions from '../assets/icons/subscriptions.svg'
+import groceries from '../assets/icons/groceries.svg'
 
 export default function AccountDetail () {
   return (
