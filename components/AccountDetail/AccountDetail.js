@@ -5,6 +5,9 @@ import style from './AccountDetail.module.css'
 
 import creditCard from '../../assets/img/creditCard.png'
 import transport from '../../assets/icons/transport.svg'
+import shopping from '../../assets/icons/shopping.svg'
+import subscriptions from '../../assets/icons/subscriptions.svg'
+import groceries from '../../assets/icons/groceries.svg'
 
 export default function AccountDetail () {
   return (
@@ -26,21 +29,21 @@ export default function AccountDetail () {
                 <p>$182,95</p>
               </div>
             </li>
-            <li><Image src={transport} />
+            <li><Image src={shopping} />
               <div>
-                <h4>Transport</h4>
+                <h4>Shopping</h4>
                 <p>$182,95</p>
               </div>
             </li>
-            <li><Image src={transport} />
+            <li><Image src={subscriptions} />
               <div>
-                <h4>Transport</h4>
+                <h4>Subscriptions</h4>
                 <p>$182,95</p>
               </div>
             </li>
-            <li><Image src={transport} />
+            <li><Image src={groceries} />
               <div>
-                <h4>Transport</h4>
+                <h4>Groceries</h4>
                 <p>$182,95</p>
               </div>
             </li>
