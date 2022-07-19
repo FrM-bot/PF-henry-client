@@ -8,8 +8,8 @@ const CryptosInfo = () => {
 
   useEffect(() => {
     GET_DATA_CRYPTO()
-    .then(setCoin)
-    .catch(console.log)
+      .then(setCoin)
+      .catch(console.log)
   }, [])
 
   return (

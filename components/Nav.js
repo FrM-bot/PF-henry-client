@@ -4,7 +4,7 @@ import style from '../styles/Nav.module.css'
 
 export default function Nav () {
   const router = useRouter()
-  const itemalign = { display: 'flex', alignItems: 'center', gap:'1rem',cursor:"pointer"}
+  const itemalign = { display: 'flex', alignItems: 'center', gap: '1rem', cursor: 'pointer' }
   return (
     <nav className={style.header}>
         <div >
@@ -17,7 +17,7 @@ export default function Nav () {
             <div style={itemalign} onClick={() => router.push('/FAQ')}><span><img src='https://res.cloudinary.com/salta/image/upload/v1658256946/FAQ_vjzmyl.svg'/></span> F.A.Q</div>
           </div>
         </div>
-           <div style={{marginBottom: "4rem",display: 'grid', gridTemplateColumns:'14% auto', alignItems: 'center', gap: '1rem', cursor: "pointer"}}><span style={{marginTop:"10px"}}><img src='https://res.cloudinary.com/salta/image/upload/v1658257582/logout_olueax.svg'/></span> Log out</div>
+           <div style={{ marginBottom: '4rem', display: 'grid', gridTemplateColumns: '14% auto', alignItems: 'center', gap: '1rem', cursor: 'pointer' }}><span style={{ marginTop: '10px' }}><img src='https://res.cloudinary.com/salta/image/upload/v1658257582/logout_olueax.svg'/></span> Log out</div>
     </nav>
   )
 }
