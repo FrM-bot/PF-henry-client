@@ -1,0 +1,25 @@
+.detailContainer h2 {
+    font-size: 40px;
+}
+
+.cardContainer {
+    position: relative;
+    width: 512px;
+}
+
+.textContainer {
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+}
+
+.textContainer h3 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.textContainer p {
+    font-size: 50px;
+
+}
