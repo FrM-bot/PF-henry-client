@@ -7,6 +7,8 @@ body {
 }
 :root{
   --background-color-nav:#F7F7F9;
+  --background-color-landing:#1B1F26;
+  --color-letters:#FFFFFF;
 }
 a {
   color: inherit;
